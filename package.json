@@ -1,0 +1,15 @@
+{
+  "name": "learnodetutorial",
+  "version": "1.0.0",
+  "description": "node tutorial",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon app/app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "reload": "^3.0.3"
+  }
+}

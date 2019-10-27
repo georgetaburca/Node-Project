@@ -1,0 +1,7 @@
+<% peoples.forEach(function (item, index) { %>
+     
+  <img src= "/images/<%=item.first_name%>.jpg" alt="<%=item.first_name%>">
+  <h3><a href="/people/<%=index%>"><%=item.first_name%> <%=item.last_name%></a></h3>
+ 
+    <br>
+    <% }) %>

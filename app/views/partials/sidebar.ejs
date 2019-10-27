@@ -1,0 +1,12 @@
+<article class="sidebar">
+        <h1 class = "sidebar-title">Gallery</h1>
+        <ul class = "sidebar-body">
+        <% if(images.length){ %>
+
+            <% for(i=0; i<images.length; i++){ %>
+                <img src = "<%=images[i].url%>" alt="<%images[i].title%>" width="100px" height="80px" style="margin:5px">
+                <% } %>
+                <% } %>
+            </ul>
+       
+    </article>

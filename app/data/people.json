@@ -1,0 +1,24 @@
+{
+    "people": [{
+        "id": 1,
+        "first_name": "Georgeta",
+        "last_name": "Burca",
+        "email": "georgetaburca@yahoo.com"},
+        {
+        "id": 2,
+        "first_name": "John",
+        "last_name": "Smith",
+        "email": "johnsmith@mail.com"},
+        {
+        "id": 3,
+        "first_name": "Johanna",
+        "last_name": "Moralles",
+        "email": "jmoralles@me.com"},   
+        {
+        "id": 4,
+        "first_name": "Mellissa",
+            "last_name": "McDonald",
+            "email": "mlsamcd@aol.com"       
+
+    }]
+}

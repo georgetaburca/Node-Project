@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <% include partials/header.ejs %>     
+</head>
+<body>
+    <header>
+            <% include partials/navbar.ejs %>   
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+               
+        <% include partials/person.ejs %>
+
+            </div>
+            <aside class="col-sm-4">
+                    <% include partials/sidebar.ejs %>
+  
+            </aside>
+        </div>
+    </div>
+     
+    <scrpit src = "/reload/reload.js"></scrpit>
+</body>
+</html>
